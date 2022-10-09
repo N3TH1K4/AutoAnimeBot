@@ -4,7 +4,7 @@ from config import MONGO_DB_URI
 
 print("[INFO]: STARTING MONGO DB CLIENT")
 mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.autoanime
+db = mongo_client.autoanimessda
 
 animedb = db.animes
 uploadsdb = db.uploads
